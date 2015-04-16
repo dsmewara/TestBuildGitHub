@@ -15,4 +15,6 @@ before_script:
 script: 
 
  - composer self-update
- 
+ - php vendor/bin/codecept build
+ - php vendor/bin/codecept run acceptance SigninCept.php
+
