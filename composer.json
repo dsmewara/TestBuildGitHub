@@ -1,0 +1,8 @@
+{
+	"require"    : {
+        "php": ">=5.3.10"
+    },
+    "require": {
+        "codeception/codeception": "*"
+    }
+}
