@@ -2,7 +2,7 @@
 $I = new AcceptanceTester($scenario);
 $I->wantTo('Welcome to jom');
 $I->amOnPage('/administrator/index.php');
-$I->resizeWindow(1200,1200);
+/*$I->resizeWindow(1200,1200);
 $I->makeScreenshot('Home page');
 $I->fillField("//*[@id='mod-login-username']", "admin");
 $I->fillField("//*[@id='mod-login-password']", "admin");
@@ -37,3 +37,5 @@ $I->click('//*[@id=\'sidebar\']/ul/li[5]/a/span');
 $I->click('//*[@id=\'sidebar\']/ul/li[5]/ul/li[1]/a/span');
 $I->amOnPage('/administrator/index.php?option=com_community&view=groups');
 $I->makeScreenshot('edit_page');
+*/
+
